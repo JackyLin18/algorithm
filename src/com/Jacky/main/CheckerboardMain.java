@@ -8,8 +8,8 @@ import java.util.Scanner;
  * @Description
  **/
 public class CheckerboardMain {
-    // 初始时棋盘的大小（默认为8）
-    private static int BOARD_SIZE = 2 ^ 3;
+    // 初始时棋盘的大小
+    private static int BOARD_SIZE;
     // 使用二维数组模拟棋盘
     private static int[][] board;
     // 全局变量，记录骨牌编号
