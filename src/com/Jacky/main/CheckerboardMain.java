@@ -24,7 +24,8 @@ public class CheckerboardMain {
             temp = 2 * temp;
         }
         BOARD_SIZE = temp;
-        System.out.println("k值为" + k + ", 棋盘大小为" + BOARD_SIZE);
+        System.out.println("k值为" + k + ", 棋盘大小为" + BOARD_SIZE + "*" + BOARD_SIZE
+                + "=" + BOARD_SIZE * BOARD_SIZE);
         System.out.print("请输入指定的特殊点所在的行号：");
         int specialRow = scanner.nextInt(k);
         System.out.print("请输入指定的特殊点所在的列号：");
